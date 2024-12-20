@@ -75,6 +75,27 @@ $data = [
 ```
 - Adjust the `model`, `max_tokens`, or other settings to suit your use case.
 
+#### **CAS Authentication Configuration**
+If you plan to build your own front-end and do not require the UGent CAS login integration, you can replace or remove the following files:
+
+1. **`main/src/UGCAS_Simple.php`**:
+   - This file handles CAS authentication for UGent users.
+   - To disable CAS, you can remove any references to this file in your project or replace it with an alternative authentication mechanism.
+
+2. **`main/logincas.php`**:
+   - This script handles CAS-based login logic.
+   - Modify this file if you are implementing your own login system, or remove it entirely if CAS authentication is not needed.
+
+   If you still use CAS authentication, ensure to update the `MY_URL` constant in `logincas.php` to match your own application’s URL:
+
+   ```php
+   define('MY_URL','https://your-custom-url/logincas.php');
+   ```
+
+   For more details, refer to the `UGCAS_Simple.php` documentation comments on how CAS works and how it can be replaced.
+
+---
+
 #### **Server Deployment**
 1. **Install Required Dependencies**:
    - Ensure your server has PHP and PostgreSQL installed.
