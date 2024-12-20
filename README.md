@@ -114,5 +114,3 @@ For any questions or issues, please contact the project maintainer:
 - **Email**: [bart.dewit@ugent.be](mailto:bart.dewit@ugent.be)
 
 ---
-
-Happy synthesizing! 🚀
