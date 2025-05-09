@@ -7,16 +7,18 @@ tags:
   - collective knowledge
 authors:
   - name: Lars De Sloover
-    affiliation: 1
+    affiliation: 1, 2
   - name: Bart De Wit
     affiliation: 1
   - name: Haosheng Huang
-    affiliation: 1
+    affiliation: 1, 2
   - name: Nico Van de Weghe
-    affiliation: 1
+    affiliation: 1, 2
 affiliations:
   - name: Department of Geography, Ghent University, Ghent, Belgium
     index: 1
+  - name: GeoAI Research Center, Ghent University, Ghent, Belgium
+    index: 2
 date: 20 December 2024
 bibliography: paper.bib
 ---
